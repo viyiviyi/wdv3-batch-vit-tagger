@@ -105,7 +105,7 @@ def dencrypt_image_v2(image:Image.Image, psw):
     image.paste(Image.fromarray(pixel_array))
     return image
 
-_password = '123qwe'
+_password = 'IMAGE_PASSWORD'
 
 if PILImage.Image.__name__ != 'EncryptedImage':
     
