@@ -5,6 +5,7 @@ import pandas as pd
 import onnxruntime as rt
 from PIL import Image
 import huggingface_hub
+import encrypt_image
 
 # Define the path to save the text files / Lokasi untuk menyimpan output tags (.txt)
 output_path = './captions/'
